@@ -1,0 +1,325 @@
+/* RESETEO DE CSS*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* HEADER */
+.header{
+    background-color: white;
+    padding: 20px;
+    position: absolute;
+    width: 100vw;
+}
+
+.header__title{
+    font-size: 1.15rem;
+    text-align:start;
+    padding: 10px;
+    margin: 5px;
+}
+
+.header__logo{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.header__logo img{
+    padding: 8px;
+    width: 80px;
+}
+
+/* NAV BAR */
+.header__nav ul {
+    display: flex;
+    font-size:1rem;
+    justify-content: space-around;
+    justify-items: center;
+    width: 100%;
+    padding-top: 10px;
+}
+
+@media(min-width: 768px){
+    .header{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header__title{
+        font-size: 1.25rem;
+        width: 53vw;
+        padding: 30px;
+        margin-left: 3px;
+    }
+    .header__logo img{
+        width: 9vw;
+    }
+    .header__nav{
+        width: 50%;
+        justify-items:center;
+    }
+    .header__nav ul{
+        font-size: 0.85rem;
+        width: 95%;
+        padding-top: 80px;
+    }
+}
+
+
+
+/* HERO */
+.hero{
+    grid-area: hero;
+    height: 85vh;
+    background-image: url(../assets/cactus.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+
+.hero__text{
+    text-align: center;
+}
+
+.hero__text h2{
+    color: white;
+    font-size: 2rem;
+    font-weight:550;
+    padding: 15px;
+}
+
+.hero__text h3{
+    color: white;
+    font-size: 1rem;
+    font-weight: 550;
+}
+
+/* NOTICIAS */    
+.noticias{
+    grid-area: noticias;  
+}
+
+.noticias__title{
+    background-color: white;
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 15px;
+}
+
+.noticias__contenedor{
+    display: flex;
+    padding: 20px;
+    overflow-x: auto;
+    gap: 15px;
+}
+
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 400px;
+    padding: 20px;
+    border: solid 2px rgb(114, 176, 21);
+    border-radius: 10px;    
+}
+
+.tarjeta__img{
+    width: 90%;
+}
+
+.tarjeta__title{
+    font-size: 1.15rem;
+    text-align:justify;
+    padding: 15px;
+}
+
+.tarjeta__boton{
+    font-size: 1rem;
+    padding: 15px 10px;
+    border: solid 2px rgb(114, 176, 21);
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgb(174, 203, 177);
+}
+
+.tarjeta__boton:hover{
+    background-color:rgb(107, 173, 107);
+    border: blue 2px solid;
+    color: white
+
+}
+
+@media(max-width:375px){
+    .noticias__contenedor{
+        display: flex;
+        flex-direction: column;
+        overflow-x: hidden;
+        align-items: center;
+    }
+    .tarjeta{
+        width: 250px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .tarjeta__title{
+        font-size: 0.9rem;
+        text-align: center;
+    }
+    .tarjeta__boton{
+        font-size: 0.9rem;
+    }
+}
+.redes{
+    grid-area: redes;
+}
+
+.redes_title{
+    background-color: white;
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 15px;
+}
+
+.contenedor-redes{
+    font-size: 3rem;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* NOSOTROS.HTML */
+.hero-nosotros{
+    grid-area: hero;
+    height: 85vh;
+    background-image: url(../assets/lago.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+
+.hero-nosotros__text{
+    text-align: center;
+}
+
+.hero-nosotros__text h2{
+    color:black;
+    font-size: 2rem;
+    font-weight:550;
+    font-style:normal;
+    padding: 15px;
+}
+
+.hero-nosotros__text h3{
+    color: black;
+    font-size: 1rem;
+    font-weight: 550;
+    font-style: italic;
+}
+
+.historia{
+    height: 80vh;
+    background-image: url(../assets/jilotepec.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+
+.historia__title{
+    color: black;
+    font-size: 2rem;
+    font-weight:850;
+    font-style:normal;
+    padding: 15px;
+}
+
+.historia__text{
+    text-align: center;
+    color: black;
+    font-weight: 850;
+}
+
+.mision{
+    height: 80vh;
+    background-image: url(../assets/santa_cruz.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+
+.mision__title{
+    color: black;
+    font-size: 2rem;
+    font-weight:850;
+    font-style:normal;
+    padding: 15px;
+}
+
+.mision__text{
+    text-align: center;
+    color: black;
+    font-weight: 850;
+    font-size: 1.2rem;
+}
+
+.vision{
+    height: 80vh;
+    background-image: url(../assets/cactus.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+
+.vision__title{
+    color: black;
+    font-size: 2rem;
+    font-weight:850;
+    font-style:normal;
+    padding: 15px;
+}
+
+.vision__text{
+    text-align: center;
+    color: black;
+    font-weight: 850;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Conservación de Ecosistemas y Paisajes Rurales A.C.-Proyectos</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <img src="../assets/logo.png" alt="logo de conepar">
+            <h1 class="header__title">CONSERVACION DE ECOSISTEMAS Y PAISAJES RURALES A.C.</h1>
+        </div>
+        <nav class="header__nav">
+            <ul>
+                <li><a href="./html/nosotros.html">Nosotros</a></li>
+                <li><a href="./html/proyectos.html">Proyectos</a></li>
+                <li><a href="./html/servicios.html">Servicios</a></li>
+                <li><a href="./html/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero__text">
+                <h2>VOLVAMOS LA MIRADA AL CAMPO Y A LA NATURALEZA</h2>
+                <h3>Hoy más que nunca necesitamos integrar paisajes sostenibles y productivos</h3>
+            </div>
+        </section>
+        <section>
+            <h2>Contáctanos!</h2>
+            <form action="">
+                <div>
+                    <label for="campo-nombre">Ingrese su nombre</label>
+                    <input type="text" placeholder="Nombre y Apellido" required id="campo-nombre"
+                        name="nombre-y-apellido">
+                </div>
+                <div>
+                    <label for="campo-mail">ingrese su correo electrónico</label>
+                    <input type="email" placeholder="correo@dominio.com" required id="campo-mail" name="e-mail">
+                </div>
+                <div>
+                    <label for="campo-residencia">Ingrese su lugar de residencia</label>
+                    <select name="residencia" id="campo-residencia">
+                        <option value="">México</option>
+                        <option value="">Estados Unidos</option>
+                        <option value="">Canadá</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="campo-mensaje">Ingrese su mensaje</label>
+                    <textarea name="mensaje" id="campo-mensaje" cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                    <label for="cuadro-privacidad" class="lab-bold">Acepto el acuerdo de privacidad</label>
+                    <input type="checkbox" name="cuadro-privacidad" id="cuadro-privacidad">
+                    <input type="submit" value="Enviar mensaje" name="limpiar-mensaje">
+                    <input type="reset" value="Limpar mensaje" name="reset">
+                </div>
+            </form>
+        </section>
+        <section class="redes">
+            <h2 class="redes_title">Síguenos en nuestras redes</h2>
+            <div class="contenedor-redes">
+                <i class="bi bi-facebook" class="icon-redes"></i>
+                <i class="bi bi-twitter" class="icon-redes"></i>
+                <i class="bi bi-instagram" class="icon-redes"></i>
+            </div>
+        </section>
+    </main>
+    </main>
+</body>
+
+</html>
