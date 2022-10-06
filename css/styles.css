@@ -84,7 +84,7 @@ a {
 .hero{
     grid-area: hero;
     height: 85vh;
-    background-image: url(../assets/cactus.jpeg);
+    background-image: url(../assets/cactus_optimized.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -269,8 +269,8 @@ a {
 }
 
 .mision{
-    height: 80vh;
-    background-image: url(../assets/santa_cruz.jpg);
+    height: 100vh;
+    background-image: url(../assets/cactus_optimized.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -298,7 +298,7 @@ a {
 
 .vision{
     height: 80vh;
-    background-image: url(../assets/cactus.jpeg);
+    background-image: url(../assets/santa_cruz_optimized.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
