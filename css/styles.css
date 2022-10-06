@@ -17,7 +17,7 @@ a {
 
 /* HEADER */
 .header{
-    background-color: white;
+    background-color:rgb(227, 232, 223);
     padding: 20px;
     position: absolute;
     width: 100vw;
@@ -322,4 +322,14 @@ a {
     color: black;
     font-weight: 850;
     font-size: 1.2rem;
+}
+
+/* CONTACTO */
+
+.contacto{
+    display: flex;
+    padding: 30px;
+    border: 2px rgb(214, 188, 20) solid;
+    background-color: rgb(240, 233, 222);
+    justify-content:center;
 }
