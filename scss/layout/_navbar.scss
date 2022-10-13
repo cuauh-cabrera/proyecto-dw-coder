@@ -1,0 +1,42 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    font-size:0.8rem;
+    justify-content:space-between;
+    width: 100%;
+    padding-top: 5px;
+    & ul{
+        display:flex;
+        flex-direction: row;
+        justify-content:space-between;
+        font-size: 0.7rem;
+        width: 95%;
+        padding-top: 8px;
+    }
+}
+
+@media (width-min: 1024px){
+    .navbar{
+        width: 50%;
+        justify-items:center;
+    }
+    .navbar ul{
+        font-size: 1rem;
+        width: 90%;
+        padding-top: 90px;
+    }
+}
+
+@media (width-min: 1200px){
+    .navbar{
+        display: flex;
+        justify-content:center;
+    }
+    .navbar ul{
+        display:flex;
+        justify-content: space-around;
+        font-size: 1rem;
+        width: 100vw;
+        padding-top: 90px;
+    }
+}

@@ -1,0 +1,30 @@
+.hero {
+    grid-area: hero;
+    height: 85vh;
+    background-image: url(../assets/cactus_optimized.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-attachment: fixed;
+
+    &__text {
+        text-align: center;
+    }
+
+    &__text h2 {
+        color: white;
+        font-size: 2rem;
+        font-weight: 550;
+        padding: 15px;
+    }
+
+    &__text h3 {
+        color: white;
+        font-size: 1rem;
+        font-weight: 550;
+    }
+}
