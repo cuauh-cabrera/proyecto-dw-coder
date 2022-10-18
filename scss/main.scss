@@ -1,10 +1,15 @@
+@import "./base/base";
 @import "./base/reset";
 @import "./base/typo";
 
 @import "./layout/header";
-@import "./layout/navbar";
+@import "./layout/article";
+@import "./layout/footer";
+// @import "./layout/grid";
 
 @import "./components/hero";
+@import "./components/cards";
+@import "./components/forms";
 
 
 

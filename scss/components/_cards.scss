@@ -1,0 +1,211 @@
+.contenedor-tarjeta {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+
+.contenedor-tarjeta--tarjeta {
+    border: solid gray 2px;
+    border-radius: 8px;
+    width: 310px;
+    height: 500px;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    &__title {
+        text-align: center;
+        font-size: 1.25rem;
+    }
+
+    &__img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+    }
+
+    &__par {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    &__btn {
+        background-color: rgb(227, 232, 223);
+        color: black;
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+
+    &__btn:hover {
+        border: rgb(220, 179, 84) 2px solid;
+        background-color: rgb(53, 182, 68);
+        color: white;
+
+    }
+}
+
+@media (min-width: 480px) {
+    .contenedor-tarjeta {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .contenedor-tarjeta--tarjeta {
+        width: 450px;
+        height: 600px;
+
+        &__title {
+            font-size: 1.5rem;
+        }
+
+        &__img {
+            max-width: 90%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+
+        &__par {
+            font-size: 1rem;
+        }
+    }
+}
+
+@media (min-width: 600px) {
+    .contenedor-tarjeta {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .contenedor-tarjeta--tarjeta {
+        width: 500px;
+        height: 700px;
+
+        &__title {
+            font-size: 1.8rem;
+        }
+
+        &__img {
+            max-width: 90%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+
+        &__par {
+            font-size: 1.15rem;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .contenedor-tarjeta {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .contenedor-tarjeta--tarjeta {
+        width: 700px;
+        height: 800px;
+
+        &__title {
+            font-size: 1.95rem;
+        }
+
+        &__img {
+            max-width: 90%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+
+        &__par {
+            font-size: 1.2rem;
+            text-align: justify;
+            margin: 10px;
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    .contenedor-tarjeta {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .contenedor-tarjeta--tarjeta {
+        border: solid gray 2px;
+        border-radius: 8px;
+        width: 310px;
+        height: 590px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        margin-left: 15x;
+        margin-right: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+        &__title {
+            text-align: center;
+            font-size: 1.25rem;
+        }
+
+        &__img {
+            max-width: 90%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+
+        &__par {
+            text-align: center;
+            font-size: 1rem;
+        }
+
+    }
+}
+
+@media (min-width: 1200px){
+    .contenedor-tarjeta--tarjeta {
+        border: solid gray 2px;
+        border-radius: 8px;
+        width: 350px;
+        height: 600px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        margin-left: 15x;
+        margin-right: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+        &__title {
+            text-align: center;
+            font-size: 1.35rem;
+        }
+
+        &__img {
+            max-width: 90%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+
+        &__par {
+            text-align: center;
+            font-size: 1rem;
+        }
+
+    }
+}
