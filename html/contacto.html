@@ -33,77 +33,76 @@
                 <h2>CONTÁCTANOS</h2>
             </div>
         </section>
-        <section class="contacto">            
+        <section class="contacto">
             <div class="contacto__form">
-            <form action="">
-                <div>
-                    <label for="campo-nombre">Ingrese su nombre</label>
-                    <input type="text" placeholder="Nombre y Apellido" required id="campo-nombre"
-                        name="nombre-y-apellido">
-                </div>
-                <div>
-                    <label for="campo-mail">ingrese su correo electrónico</label>
-                    <input type="email" placeholder="correo@dominio.com" required id="campo-mail" name="e-mail">
-                </div>
-                <div>
-                    <label for="campo-residencia">Ingrese su lugar de residencia</label>
-                    <select name="residencia" id="campo-residencia">
-                        <option value="">México</option>
-                        <option value="">Estados Unidos</option>
-                        <option value="">Canadá</option>
-                    </select>
-                </div>
-                <div>
-                    <label for="campo-mensaje">Ingrese su mensaje</label>
-                    <textarea name="mensaje" id="campo-mensaje" cols="30" rows="10"></textarea>
-                </div>
-                <div>
-                    <label for="cuadro-privacidad" class="lab-bold">Acepto el acuerdo de privacidad</label>
-                    <input type="checkbox" name="cuadro-privacidad" id="cuadro-privacidad">
-                    <input type="submit" value="Enviar mensaje" name="limpiar-mensaje">
-                    <input type="reset" value="Limpar mensaje" name="reset">
-                </div>
-            </form>
-        </div>
+                <form action="">
+                    <div>
+                        <label for="campo-nombre">Ingrese su nombre</label>
+                        <input type="text" placeholder="Nombre y Apellido" required id="campo-nombre"
+                            name="nombre-y-apellido">
+                    </div>
+                    <div>
+                        <label for="campo-mail">ingrese su correo electrónico</label>
+                        <input type="email" placeholder="correo@dominio.com" required id="campo-mail" name="e-mail">
+                    </div>
+                    <div>
+                        <label for="campo-residencia">Ingrese su lugar de residencia</label>
+                        <select name="residencia" id="campo-residencia">
+                            <option value="">México</option>
+                            <option value="">Estados Unidos</option>
+                            <option value="">Canadá</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="campo-mensaje">Ingrese su mensaje</label>
+                        <textarea name="mensaje" id="campo-mensaje" cols="30" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <label for="cuadro-privacidad" class="lab-bold">Acepto el acuerdo de privacidad</label>
+                        <input type="checkbox" name="cuadro-privacidad" id="cuadro-privacidad">
+                        <input type="submit" value="Enviar mensaje" name="limpiar-mensaje">
+                        <input type="reset" value="Limpar mensaje" name="reset">
+                    </div>
+                </form>
+            </div>
         </section>
-        <footer class="container-fluid bg-success bg-opacity-10">
-            <div class="container">
-                <div class="row justify-content-between border-bottom border-success border-2">
-                    <div class="d-flex flex-column align-items-center col-lg-3">
-                        <img src="../assets/logo_scaled.png" alt="" class="w-50 p-4">
-                        <span>contacto@conepar.org</span>
-                    </div>
-                    <div class="col-lg-3">
-                        <h4 class="p-3 text-center text-lg-center">Visita nuestras redes</h4>
-                        <div class="d-flex justify-content-around fs-2 justify-content-lg-between">
-                            <i class="bi bi-instagram"></i>
-                            <i class="bi bi-facebook"></i>
-                            <i class="bi bi-twitter"></i>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <h4 class="p-3 text-center text-lg-start">Suscribirse al Newsletter</h4>
-                        <div class="d-flex align-items-center justify-content-around justify-content-lg-start">
-                            <div class="mb-3">
-                                <label for="form-email" class="form-label">Ingresa tu correo</label>
-                                <input type="email" class="form-control mb-2" id="form-email"
-                                    placeholder="name@example.com">
-                            </div>
-                            <input type="submit" class="btn btn-warning m-2 mt-3" value="Suscribirme">
-                        </div>
-                    </div>
+
+        <footer class="footer">
+            <div class="footer__logo">
+                <a href="./index.html"><img src="../assets/logo_scaled.png" alt="logo de conepar"></a>
+            </div>
+            <div class="footer-contact">
+                <div class="footer-contact__mail">
+                    <a href="mailto:contacto@conepar.org">
+                        <p>contacto@conepar.org</p>
+                    </a>
                 </div>
-
+                <div class="footer-contact__follow">
+                    <p>Síguenos en nuestras redes sociales</p>
+                </div>
+                <div class="footer-contact__icons">
+                    <a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
+                    <a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a>
+                    <a href="https://twitter.com/"><i class="bi bi-twitter"></i></a>
+                </div>
             </div>
-            <p class="text-center m-0 p-2">CONEPAR 2022 | Todos los derechos reservados</p>
-
+            <div class="footer-menu">
+                <ul class="footer-menu__list">
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="../html/nosotros.html">Nosotros</a></li>
+                    <li><a href="../html/proyectos.html">Proyectos</a></li>
+                    <li><a href="../html/servicios.html">Servicios</a></li>
+                    <li><a href="../html/contacto.html">Contacto</a></li>
+                </ul>
             </div>
-
+            <div class="footer__copy">
+                <p>© CONEPAR A.C. 2022 | Todos los derechos reservados</p>
+            </div>
         </footer>
     </main>
     <script script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-    crossorigin="anonymous"></script>
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
 
 </body>
 
